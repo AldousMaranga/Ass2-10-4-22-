@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft Office Course</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $.get('header.html', function (response) {
+            $('#header').html(response);
+        });
+    </script>
+</head>
+
+<body>
+    <!-------------------header-->
+    <header>
+        <div id="header"></div>
+    </header>
+
+    <!--break-->
+    <div class="content-wrap">
+        <h1>Microsoft Office</h1>
+        <br />
+        <br />
+        <div>
+            <center><img src="image/microsoft.png" width="1300" height="650"></center>
+        </div>
+
+
+    </div>
+    <div class="content-wrap1">
+        <video width="480" height="270" controls>
+            <source src="video/microsoft.mp4" type="video/mp4">
+        </video>
+        <section class="par2">
+            <h1>Heading 1</h1>
+            <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet scelerisque ipsum. Etiam
+                    consectetur dui at dolor mollis,
+                    congue aliquet eros finibus. Aenean malesuada mauris elit, ac mollis sapien vestibulum nec. Proin
+                    dui massa, convallis ut mattis vitae,
+                    sollicitudin et eros. Ut ornare, turpis at congue mollis, est tortor convallis nunc, in porttitor
+                    augue mi et neque. Vestibulum ac eros
+                    nec turpis tempus ullamcorper vel vitae est. Interdum et malesuada fames ac ante ipsum primis in
+                    faucibus.</b></p>
+        </section>
+    </div>
+    <br />
+    <br />
+
+    <footer>
+        <p><input type="checkbox">By clicking this box, you have agreed to our <b><i><a
+                        href="privacy-policy.html">Privacy Policy</i></b></a></p>
+        <h4><a href="sitemap.html">Sitemap</a></h4>
+        <p>
+            <center>Copyright Ⓒ2022 ABC Learning Center. All rights reserved.</center>
+        </p>
+    </footer>
+</body>
+
+</html>

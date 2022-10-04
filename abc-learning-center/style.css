@@ -1,0 +1,196 @@
+/*
+#51E5FF=sky blue crayola
+#440381=indigo
+#EC368D=deep pink
+#FFA5A5=light pink
+#FFD6C0=looks like dirty white
+#EFE9E7=isabelline
+#C42021=lava
+#C5DECD=murag puti
+#E5E5E5=platinum
+#152C51=space cadet /murag blue
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+}
+body{
+    background:white;
+    margin: 0;
+    color:#152C51;
+}
+.content-wrap{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.content-wrap1{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sitemap{
+    padding:20px;
+    margin: 0 auto;
+}
+
+/*----------------------------------header------------------------------*/
+.title{
+    background: white;
+    padding: 5px;
+}
+
+
+/*-----------------------------------nav bar----------------------------*/
+
+.navbar{
+    list-style: none;
+    margin:0px;
+    padding: 0 0 0 50px;
+    background: #51E5FF;
+    overflow: auto;
+
+
+}
+.navbar li{
+    float:left;
+
+}
+
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: #440381;
+    padding: 15px 20px;
+
+
+}
+
+.navbar li a:hover{
+    background-color:#FFA5A5;
+    color:#440381;
+    
+}
+.details{
+    display: block;
+    text-decoration: none;
+    color: #440381;
+    padding: 15px 20px;
+
+}
+.pp{
+    padding:50px;
+
+}
+
+/*--------------------------------first part----------------------------*/
+h1{
+    display: inline-block;
+}
+#h1{
+    display: block;
+}
+.par1{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 30px 0 30px;
+}
+
+.par1 h1{
+    margin: 0 auto;
+}
+
+.par1 p{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.content-wrap{
+    padding:0 0 30px 0;
+}
+
+.jvp{
+    width: 100%;
+}
+
+/*----------------------------about us part-----------------------------*/
+
+.staff{
+    font-size: 20px;
+}
+
+.par2{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 0 0 30px;
+
+}
+
+.par2 p{
+    width: 650px;
+    margin: 0 auto;
+
+}
+
+.staffim{
+    width: 100%;
+}
+/*---------------------------contact us part----------------------------*/
+
+
+.phone{
+    display: inline-block;
+    width:600px;
+    margin-top:0 auto;
+    padding: 0 50px 30px 50px;
+    
+}
+.telephone{
+    display: inline-block;
+    width:550px;
+    margin-top:0 auto;
+    padding: 0 50px 30px 50px;
+
+}
+.js{
+    background-color: #C5DECD;
+    font-size: 6rem;
+    text-align: center;
+    padding: 100px;
+}
+.btn{
+    font-size: 3rem;
+    padding: 10px;
+    margin: 5px;
+    background-color: #E5E5E5;
+}
+
+/*-----------------------------footer-----------------------------------*/
+footer{
+    background:#E5E5E5;
+    padding: 5px 5px 5px 30px;
+    color: #440381;
+
+}
+footer{
+    background:#E5E5E5;
+    padding: 5px 5px 5px 30px;
+    color: #440381;
+
+}
+.footer{
+    background:#E5E5E5;
+    padding: 5px 5px 5px 30px;
+    color: #440381;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    padding: 0 410px 0 0;
+}

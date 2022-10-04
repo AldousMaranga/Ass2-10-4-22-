@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MWF Schedule</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type='text/javascript'>
+    $.get('header.html', function (response) {
+      $('#header').html(response);
+    });
+  </script>
+</head>
+
+<body>
+  <!-------------------header-->
+  <header>
+    <div id="header"></div>
+  </header>
+
+  <!--Break-->
+  <h1>Monday, Wednesday, and Friday (MWF Schedules)</h1>
+  <ul>
+    <li>Java Programming</li>
+  </ul>
+
+</body>
+
+</html>

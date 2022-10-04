@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Schedules</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type='text/javascript'>
+    $.get('header.html', function (response) {
+      $('#header').html(response);
+    });
+  </script>
+</head>
+
+<body>
+  <!-------------------header-->
+  <header>
+    <div id="header"></div>
+  </header>
+
+  <div class="content-wrap">
+    <h3><a href="mwf.html">Monday, Wednesday, and Friday Schedule</a></h3>
+    <h3><a href="tths.html">Tuesday, Thursday, and Saturday Schedule</a></h3>
+
+  </div>
+
+  <footer class="footer">
+    <p><input type="checkbox">By clicking this box, you have agreed to our <b><i><a href="privacy-policy.html">Privacy
+            Policy</i></b></a></p>
+    <h4><a href="sitemap.html">Sitemap</a></h4>
+    <p>
+      <center>Copyright Ⓒ2022 ABC Learning Center. All rights reserved.</center>
+    </p>
+  </footer>
+  <!--Break-->
+
+
+
+
+</body>
+
+</html>

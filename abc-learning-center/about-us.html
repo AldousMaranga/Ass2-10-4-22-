@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About ABC Learning Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $.get('header.html', function (response) {
+            $('#header').html(response);
+        });
+    </script>
+</head>
+
+<body>
+    <!-------------------header-->
+    <header>
+        <div id="header"></div>
+    </header>
+
+    <!--Make the image as big as the screen-->
+    <div>
+        <img src="image/staffpic.jpg" alt="group pic" class="staffim">
+    </div>
+
+
+    <!--Break-->
+
+    <div class="content-wrap1">
+        <p><span class="staff"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet scelerisque
+                    ipsum. Etiam consectetur dui at dolor mollis,
+                    congue aliquet eros finibus. Aenean malesuada mauris elit, ac mollis sapien vestibulum nec. Proin
+                    dui massa, convallis ut mattis vitae,
+                    sollicitudin et eros. Ut ornare, turpis at congue mollis, est tortor convallis nunc, in porttitor
+                    augue mi et neque. Vestibulum ac eros
+                    nec turpis tempus ullamcorper vel vitae est. Interdum et malesuada fames ac ante ipsum primis in
+                    faucibus.
+                    <br />
+                    <br />
+                    Cras tincidunt sem erat. Mauris convallis gravida pellentesque.
+                    Vestibulum auctor mi quis ipsum laoreet laoreet. Aenean cursus lectus sed libero lobortis dignissim.
+                    D
+                    onec varius placerat velit, gravida lobortis arcu ornare vel. Vivamus et purus risus. Mauris auctor
+                    at ipsum eget maximus.
+                    Aenean quis eleifend eros, in pretium erat. Morbi ut varius mauris.</b></span></p>
+        <br />
+        <br />
+        <video width="480" height="270" controls>
+            <source src="video/Coding.mp4" type="video/mp4">
+        </video>
+        <section class="par2">
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet scelerisque ipsum. Etiam
+                consectetur dui at dolor mollis,
+                congue aliquet eros finibus. Aenean malesuada mauris elit, ac mollis sapien vestibulum nec. Proin dui
+                massa, convallis ut mattis vitae,
+                sollicitudin et eros. Ut ornare, turpis at congue mollis, est tortor convallis nunc, in porttitor augue
+                mi et neque. Vestibulum ac eros
+                nec turpis tempus ullamcorper vel vitae est. Interdum et malesuada fames ac ante ipsum primis in
+                faucibus.</p>
+        </section>
+        <br />
+        <br />
+    </div>
+    <!--Break-->
+
+    <footer>
+        <div class="footer"></div>
+        <p><input type="checkbox">By clicking this box, you have agreed to our <b><i><a
+                        href="privacy-policy.html">Privacy Policy</i></b></a></p>
+        <h4><a href="sitemap.html">Sitemap</a></h4>
+        <p>
+            <center>Copyright Ⓒ2022 ABC Learning Center. All rights reserved.</center>
+        </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

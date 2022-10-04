@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type='text/javascript'>
+        $.get('header.html', function (response) {
+            $('#header').html(response);
+        });
+    </script>
+</head>
+
+<body>
+    <!-------------------header-->
+    <header>
+        <div id="header"></div>
+    </header>
+    <!--Break-->
+    <div class="js">
+        <h2 id="demo">Are you interested with these courses?</h2>
+        <button class="btn" type="button"
+            onclick='document.getElementById("demo").innerHTML = "<div>Great!</div> Please contact the person below!"'>Yes!</button>
+    </div>
+    <br />
+    <br />
+
+    <div class="content-wrap">
+        <h2>Instructor Jian M. Lim</h2>
+        <img src="image/instructor.jpg" alt="picture" width="200" height="200">
+
+        <div class="phone">
+            <h3>Phone Number: +63 99-325-3819</h3>
+            <h3>Email Address: jianmlim@email.com</h3>
+        </div>
+        <div class="telephone">
+            <h3>Company Details:</h3>
+            <h3>Telephone Number: +032 342-6514</h3>
+        </div>
+
+        <h2><i>Office Location</i></h2>
+        <p>(Click on the image below to view the full map.)</p>
+        <a href="https://www.google.com/maps/search/google+maps/@10.2934052,123.8825693,16z" target="_blank">
+            <center><img src="image/location.jpg" alt="location" width="1440" height="720"></center>
+        </a>
+
+
+
+    </div>
+    <br />
+    <br />
+    </div>
+
+    <footer>
+        <p><input type="checkbox">By clicking this box, you have agreed to our <b><i><a
+                        href="privacy-policy.html">Privacy Policy</i></b></a></p>
+        <h4><a href="sitemap.html">Sitemap</a></h4>
+        <p>
+            <center>Copyright Ⓒ2022 ABC Learning Center. All rights reserved.</center>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>
